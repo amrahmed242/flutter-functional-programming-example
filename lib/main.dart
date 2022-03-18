@@ -13,7 +13,7 @@ main() async {
 
 onFetchFailed(Failure failure) {
   //recive failures and handle them
-  print('recived error:' + failure.toString());
+  print('recived error of:' + failure.toString());
 
   if (failure.code == FailureCodes.noNetwork) {
     //do something special with specifc failure

@@ -5,5 +5,5 @@ class Failure {
   Failure({required this.code, this.message});
 
   @override
-  String toString() => message ?? 'error code:$code message:$message';
+  String toString() => 'error code:$code message:$message';
 }
